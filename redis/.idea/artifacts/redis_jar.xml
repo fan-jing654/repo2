@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="redis:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/redis_jar</output-path>
+    <root id="archive" name="redis.jar">
+      <element id="module-output" name="redis" />
+      <element id="javaee-facet-resources" facet="redis/web/Web" />
+      <element id="library" level="project" name="commons-pool-1.6" />
+      <element id="library" level="project" name="jedis-2.9.0" />
+      <element id="library" level="project" name="junit-4.12" />
+    </root>
+  </artifact>
+</component>
